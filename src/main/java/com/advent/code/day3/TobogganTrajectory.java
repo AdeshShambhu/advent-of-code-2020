@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day3;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,16 +14,16 @@ import java.util.Scanner;
  * Count the total number of trees encountered while traversing 3 right and 1 down (Only at the end point).
  * Part 1 => Find total number of trees encountered while traversing
  * Part 2 => Different combinations for traversal (multiple the number of trees encountered in each traversal).
- * Input file => resources/input/Day3TobogganTrajectory_input.txt => contains the map with open spaces(.) and trees(#)
+ * Input file => resources/input/Day3TobogganTrajectory.txt => contains the map with open spaces(.) and trees(#)
  * @author adeshs
  */
-public class Day3TobogganTrajectory {
+public class TobogganTrajectory {
 
     public static void main(String[] args) {
         ;
         //Read the input file and store the results in the
         try {
-            char[][] islandMap = readInput("src/main/resources/input/Day3TobogganTrajectory_input.txt");
+            char[][] islandMap = readInput("src/main/resources/input/Day3TobogganTrajectory.txt");
 
             List<List<Integer>> traversalCombination =
                     Arrays.asList(Arrays.asList(1, 1),

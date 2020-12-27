@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,16 +11,16 @@ import java.util.Scanner;
  * Report Repair
  * Part 1 => Find a pair of numbers in an array that sum to 2020 and return the product of the pair.
  * Part 2 => Find a triplet of numbers in an array that sum to 2020 and return the product of the triplet.
- * Input file => resources/input/Day1ReportRepair_input.txt => contains the list of numbers
+ * Input file => resources/input/Day1ReportRepair.txt => contains the list of numbers
  * @author adeshs
  */
-public class Day1ReportRepair {
+public class ReportRepair {
 
     public static void main(String[] args) {
         ArrayList<Integer> inputArray = new ArrayList<Integer>();
         //Read the input file and store the results in the
         try {
-            inputArray = readInput("src/main/resources/input/Day1ReportRepair_input.txt");
+            inputArray = readInput("src/main/resources/input/Day1ReportRepair.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

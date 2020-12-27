@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day4;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,10 +9,10 @@ import java.util.Scanner;
 /**
  * Day 4 of Advent of Code 2020 (https://adventofcode.com/)
  * Passport Processing (https://adventofcode.com/2020/day/4)
- * Input file => resources/input/Day4PassportProcessing_input.txt => contains the list of passport details
+ * Input file => resources/input/Day4PassportProcessing.txt => contains the list of passport details
  * @author adeshs
  */
-public class Day4PassportProcessing {
+public class PassportProcessing {
     static HashSet<String> eyeColors = new HashSet<>();
     static {
         eyeColors.add("amb");
@@ -57,7 +57,7 @@ public class Day4PassportProcessing {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner s = new Scanner(new File("src/main/resources/input/Day4PassportProcessing_input.txt"));
+        Scanner s = new Scanner(new File("src/main/resources/input/Day4PassportProcessing.txt"));
         int validPassports = 0;
         int count = 0;
         while(s.hasNext()){

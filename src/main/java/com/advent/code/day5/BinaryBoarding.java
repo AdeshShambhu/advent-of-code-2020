@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,13 +8,13 @@ import java.util.Scanner;
 /**
  * Day 5 of Advent of Code 2020 (https://adventofcode.com/)
  * Binary Boarding (https://adventofcode.com/2020/day/5)
- * Input file => resources/input/Day5BinaryBoarding_input.txt => contains the list of Boarding numbers
+ * Input file => resources/input/Day5BinaryBoarding.txt => contains the list of Boarding numbers
  * @author adeshs
  */
-public class Day5BinaryBoarding {
+public class BinaryBoarding {
     public static void main(String[] args) {
         try {
-            Scanner s = new Scanner(new File("src/main/resources/input/Day5BinaryBoarding_input.txt"));
+            Scanner s = new Scanner(new File("src/main/resources/input/Day5BinaryBoarding.txt"));
             HashSet<Integer> seatHash = new HashSet<Integer>();
             int maxSeatID = 0;
 

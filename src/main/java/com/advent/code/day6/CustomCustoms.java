@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day6;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Custom Customs (https://adventofcode.com/2020/day/6)
  * @author adeshs
  */
-public class Day6CustomCustoms {
+public class CustomCustoms {
     public static void main(String[] args) {
         try
         {
@@ -18,7 +18,7 @@ public class Day6CustomCustoms {
             int totalQuestions = 0;
             //Counter for total unique answers per group
             int totalUniqueQuesPerGroup = 0;
-            Scanner s = new Scanner(new File("src/main/resources/input/Day6CustomCustoms_input.txt"));
+            Scanner s = new Scanner(new File("src/main/resources/input/Day6CustomCustoms.txt"));
             while (s.hasNext()) {
                 HashSet<Character> questionsMap = new HashSet<Character>();
                 HashSet<Character> uniqueMap = new HashSet<Character>();

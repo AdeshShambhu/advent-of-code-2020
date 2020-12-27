@@ -1,4 +1,4 @@
-package com.advent.code;
+package com.advent.code.day2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,12 +17,12 @@ import java.util.Scanner;
  * Part 2 => Count the total number of valid passwords in the input file
  *           (Each policy actually describes two positions in the password,
  *           Exactly one of these positions must contain the given letter)
- * Input file => resources/input/Day2PasswordPhilosophy_input.txt => contains the list of passwords
+ * Input file => resources/input/Day2PasswordPhilosophy.txt => contains the list of passwords
  * Part 1 Input format => <min_number_of_occurrence>-<max_number_of_occurrence> <character>: <password>
  * Part 2 Input format => <PasswordindexNumber>-<PasswordindexNumber> <character>: <password> (Index starts at 1)
  * @author adeshs
  */
-public class Day2PasswordPhilosophy {
+public class PasswordPhilosophy {
     private static class PasswordPolicy{
         int minOccurence;
         int maxOccurence;
@@ -34,7 +34,7 @@ public class Day2PasswordPhilosophy {
         ArrayList<PasswordPolicy> inputArray = new ArrayList<PasswordPolicy>();
         //Read the input file and store the results in the
         try {
-            inputArray = readInput("src/main/resources/input/Day2PasswordPhilosophy_input.txt");
+            inputArray = readInput("src/main/resources/input/Day2PasswordPhilosophy.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
