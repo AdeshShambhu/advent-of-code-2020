@@ -1,6 +1,6 @@
 package com.advent.code.day12;
 
-import com.advent.utils.Utility;
+import com.advent.code.utils.Utility;
 
 import java.io.FileNotFoundException;
 import java.util.List;

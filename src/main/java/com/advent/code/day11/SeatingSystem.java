@@ -1,11 +1,10 @@
 package com.advent.code.day11;
 
-import com.advent.utils.Utility;
+import com.advent.code.utils.Utility;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Day 11 of Advent of Code 2020 (https://adventofcode.com/)

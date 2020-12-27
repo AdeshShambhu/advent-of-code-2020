@@ -1,4 +1,4 @@
-package com.advent.utils;
+package com.advent.code.utils;
 
 /**
  * @author adesh

@@ -1,4 +1,4 @@
-package com.advent.utils;
+package com.advent.code.utils;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -50,7 +50,7 @@ public class Utility {
         List<String> input = new ArrayList<String>();
         Scanner s = new Scanner(new File(filePath));
         while (s.hasNext()){
-            input.add(s.next());
+            input.add(s.nextLine());
         }
         s.close();
         return input;

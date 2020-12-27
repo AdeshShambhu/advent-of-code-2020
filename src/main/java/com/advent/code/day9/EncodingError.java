@@ -1,12 +1,9 @@
 package com.advent.code.day9;
 
-import com.advent.utils.Utility;
+import com.advent.code.utils.Utility;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Day 9 of Advent of Code 2020 (https://adventofcode.com/)
